@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/test.dir/unit_tests/Test.cpp.o CMakeFiles/test.dir/src/Command.cpp.o CMakeFiles/test.dir/src/Lexical.cpp.o CMakeFiles/test.dir/src/Connector.cpp.o  -o test googletest/libgtestd.a -pthread 

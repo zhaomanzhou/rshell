@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zmz/CLionProjects/rshell/src/Command.cpp
+Command.h
+/home/zmz/CLionProjects/rshell/src/Command.h
+iostream
+-
+unistd.h
+-
+sys/wait.h
+-
+sys/stat.h
+-
+
+/home/zmz/CLionProjects/rshell/src/Command.h
+string
+-
+vector
+-
+Connector.h
+/home/zmz/CLionProjects/rshell/src/Connector.h
+
+/home/zmz/CLionProjects/rshell/src/Connector.h
+string
+-
+

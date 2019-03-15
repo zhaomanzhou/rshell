@@ -1,0 +1,8 @@
+/home/zmz/CLionProjects/rshell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/CMakeFiles/rshell.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/CMakeFiles/test.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/CMakeFiles/rebuild_cache.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/CMakeFiles/gtest.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/CMakeFiles/edit_cache.dir
+/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/CMakeFiles/gtest_main.dir

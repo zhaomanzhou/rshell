@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rshell">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/rshell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rshell"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rshell/fast">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/rshell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rshell/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-Dgtest_disable_pthreads=ON"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest/include"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-Dgtest_disable_pthreads=ON"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest/include"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest/include"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest/include"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest/include"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest/include"/>
+					<Add directory="/home/zmz/CLionProjects/rshell/googletest"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zmz/CLionProjects/rshell/cmake-build-debug/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zmz/CLionProjects/rshell/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/Command.cpp">
+			<Option target="rshell"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/Command.h">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/Connector.cpp">
+			<Option target="rshell"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/Connector.h">
+			<Option target="rshell"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/Lexical.cpp">
+			<Option target="rshell"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/Lexical.h">
+			<Option target="rshell"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/src/main.cpp">
+			<Option target="rshell"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/unit_tests/Test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\googletest\"/>
+		</Unit>
+		<Unit filename="/home/zmz/CLionProjects/rshell/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
