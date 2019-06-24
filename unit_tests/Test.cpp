@@ -222,6 +222,23 @@ TEST(Testexecp, TestMultiEcho2)
 
 }
 
+TEST(TestRedirectCommand, execute)
+{
+    Lexical x;
+    x.setInput("cat < existingInputFile | tr A-Z a-z | tee newOutputFile1 ");
+    RedirectCommand redirectCommand(x.lexicalPaser());
+    //redirectCommand.execute();
+}
+
+TEST(TestRedirectCommand, execute1)
+{
+    Lexical x;
+    x.setInput("cat < existingInputFile | tr A-Z a-z | tee newOutputFile1 ");
+    vector<string> &vector = x.lexicalPaser();
+    MultiCommand m(vector);
+}
+
+
 int main(int argc, char* argv[])
 {
     ::testing::InitGoogleTest(&argc, argv);

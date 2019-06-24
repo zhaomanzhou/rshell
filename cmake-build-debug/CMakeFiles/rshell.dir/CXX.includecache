@@ -17,11 +17,15 @@ sys/wait.h
 -
 sys/stat.h
 -
+fcntl.h
+-
 
 /home/zmz/CLionProjects/rshell/src/Command.h
 string
 -
 vector
+-
+unistd.h
 -
 Connector.h
 /home/zmz/CLionProjects/rshell/src/Connector.h

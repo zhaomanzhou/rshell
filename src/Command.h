@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <unistd.h>
 #include "Connector.h"
 
 class Command
@@ -77,6 +78,7 @@ private:
     std::vector<Connector*> connectors;
     void paser();
     bool isConnector(const std::string& s);
+    bool containRedirect(const std::vector<std::string> &v);
 
 };
 
@@ -90,7 +92,15 @@ public:
     TestCommand(const std::vector<std::string> &tokens);
 };
 
-
+class RedirectCommand: public Command
+{
+private:
+    std::vector<std::string> tokens;
+    std::vector<std::vector<std::string>> commands;
+public:
+    RedirectCommand(const std::vector<std::string> &tokens);
+    int execute() override;
+};
 
 
 
